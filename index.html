@@ -3,165 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plano de Treino | Hipertrofia & Definição</title>
+    <title>WebCash Gym | Sistema de Treinos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="brand">PLANO DEFINITIVO</a>
-            <div class="nav-links">
-                <a href="#treino">Treino</a>
-                <a href="#nutricao">Nutrição</a>
-                <a href="#recuperacao">Recuperação</a>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">WG</div>
+                WebCash Gym
+            </div>
+            <div class="header-actions">
+                <div class="progress-ring">
+                    <div class="progress-circle" id="weekProgress">0%</div>
+                </div>
+                <button class="theme-toggle" id="themeToggle">🌙</button>
             </div>
         </div>
-    </nav>
+    </header>
 
     <main class="container">
-        <header class="main-header">
-            <h1>Seu Plano Completo para um Shape Impecável</h1>
-            <p>Foco em Hipertrofia com Máquinas, Definição e Resultados Consistentes.</p>
-        </header>
-
-        <section id="principios" class="card">
-            <h2>🧠 Princípios Fundamentais do Sucesso</h2>
-            <ul>
-                <li><strong>Sobrecarga Progressiva:</strong> A cada semana, tente aumentar a carga ou as repetições. O músculo precisa de novos desafios para crescer.</li>
-                <li><strong>Cadência Controlada:</strong> Execute os movimentos de forma lenta e controlada (2s para levantar, 4s para abaixar). Tensão é a chave.</li>
-                <li><strong>Amplitude Máxima:</strong> Use toda a amplitude de movimento segura para estimular a fibra muscular por completo.</li>
-                <li><strong>Descanso Inteligente:</strong> Descanse de 60 a 90 segundos entre as séries para manter a intensidade alta.</li>
-            </ul>
-        </section>
-
-        <section id="treino">
-            <h2>🏋️‍♂️ Plano de Treino Semanal Detalhado</h2>
-            
-            <article class="card dia-treino">
-                <h3>🧱 Segunda-feira: Peito + Tríceps</h3>
-                <table>
-                    <thead><tr><th>Exercício</th><th>Séries x Reps</th><th>Dica de Execução</th></tr></thead>
-                    <tbody>
-                        <tr><td>Chest Press (máquina)</td><td>4 x 10</td><td>Foque na contração máxima do peitoral.</td></tr>
-                        <tr><td>Crucifixo na máquina</td><td>4 x 12</td><td>Sua força aqui é ótima (79kg)! Use carga alta com controle total.</td></tr>
-                        <tr><td>Crossover na polia alta</td><td>4 x 12</td><td>Alongue bem o peitoral na fase inicial do movimento.</td></tr>
-                        <tr><td>Tríceps máquina (barra)</td><td>4 x 12</td><td>Mantenha a força (75kg) com execução perfeita.</td></tr>
-                        <tr><td>Tríceps corda na polia</td><td>4 x 10</td><td>Abra bem a corda no final para esmagar o tríceps.</td></tr>
-                        <tr><td>Tríceps francês na máquina</td><td>3 x 12</td><td>Foque no alongamento da cabeça longa do tríceps.</td></tr>
-                    </tbody>
-                </table>
-            </article>
-
-            <article class="card dia-treino">
-                <h3>🧱 Terça-feira: Costas + Bíceps</h3>
-                <table>
-                    <thead><tr><th>Exercício</th><th>Séries x Reps</th><th>Dica de Execução</th></tr></thead>
-                    <tbody>
-                        <tr><td>Pulldown frontal (máquina)</td><td>4 x 10</td><td>Puxe a barra em direção ao peito, estufando-o.</td></tr>
-                        <tr><td>Remada baixa (pegada neutra)</td><td>4 x 12</td><td>Mantenha as costas retas e puxe com os dorsais.</td></tr>
-                        <tr><td>Puxada unilateral</td><td>4 x 10</td><td>Concentre-se em espremer um lado de cada vez.</td></tr>
-                        <tr><td>Rosca direta máquina</td><td>4 x 12</td><td>Evite usar os ombros ou o corpo para levantar o peso.</td></tr>
-                        <tr><td>Rosca alternada máquina Scott</td><td>4 x 10</td><td>Isole o bíceps, controlando a subida e a descida.</td></tr>
-                        <tr><td>Face pull (polia alta)</td><td>3 x 15</td><td>Puxe a corda em direção ao rosto, focando nos ombros posteriores.</td></tr>
-                    </tbody>
-                </table>
-            </article>
-
-            <article class="card dia-treino">
-                <h3>🦵 Quarta-feira: Pernas (Completo)</h3>
-                <table>
-                    <thead><tr><th>Exercício</th><th>Séries x Reps</th><th>Dica de Execução</th></tr></thead>
-                    <tbody>
-                        <tr><td>Leg press 45º</td><td>4 x 12</td><td>Use carga alta com amplitude total e segura.</td></tr>
-                        <tr><td>Cadeira Extensora</td><td>4 x 10-12</td><td>Na última série, faça um dropset (reduza o peso e continue até a falha).</td></tr>
-                        <tr><td>Agachamento guiado (Smith)</td><td>4 x 10</td><td>Mantenha o abdômen contraído e a coluna neutra.</td></tr>
-                        <tr><td>Mesa flexora</td><td>4 x 12</td><td>Concentre-se em "espremer" o posterior de coxa no topo.</td></tr>
-                        <tr><td>Cadeira flexora sentada</td><td>4 x 12</td><td>Ótimo para isolar e finalizar o posterior.</td></tr>
-                        <tr><td>Panturrilha (leg press/máquina)</td><td>4 x 20</td><td>Alongue e contraia ao máximo em cada repetição.</td></tr>
-                    </tbody>
-                </table>
-            </article>
-
-            <article class="card dia-treino">
-                <h3>💪 Quinta-feira: Ombros + Abdômen</h3>
-                <table>
-                    <thead><tr><th>Exercício</th><th>Séries x Reps</th><th>Dica de Execução</th></tr></thead>
-                    <tbody>
-                        <tr><td>Desenvolvimento frontal (máquina)</td><td>4 x 10</td><td>Não trave os cotovelos no topo do movimento.</td></tr>
-                        <tr><td>Elevação lateral (máquina)</td><td>4 x 12</td><td>Lidere o movimento com os cotovelos, não com as mãos.</td></tr>
-                        <tr><td>Elevação frontal (máquina/polia)</td><td>4 x 12</td><td>Movimento controlado, sem balançar o corpo.</td></tr>
-                        <tr><td>Remada alta (máquina)</td><td>4 x 10</td><td>Puxe em direção ao queixo, focando em ombros e trapézio.</td></tr>
-                        <tr><td>Abdômen crunch (máquina)</td><td>4 x 20</td><td>Concentre a força no abdômen.</td></tr>
-                        <tr><td>Abdominal inferior (polia/banco)</td><td>3 x 20</td><td>Mantenha a lombar estável.</td></tr>
-                        <tr><td>Prancha isométrica</td><td>3 x falha</td><td>Mantenha o corpo reto como uma prancha, sem elevar o quadril.</td></tr>
-                    </tbody>
-                </table>
-            </article>
-
-            <article class="card dia-treino">
-                <h3>🔁 Sexta-feira: Superiores Completo (Full Upper Body)</h3>
-                <table>
-                    <thead><tr><th>Exercício</th><th>Séries x Reps</th><th>Dica de Execução</th></tr></thead>
-                    <tbody>
-                        <tr><td>Chest press (máquina)</td><td>3 x 12</td><td>Foco em volume e contração.</td></tr>
-                        <tr><td>Pulldown frontal (máquina)</td><td>3 x 12</td><td>Pegada aberta para focar na largura das costas.</td></tr>
-                        <tr><td>Remada baixa (máquina)</td><td>3 x 12</td><td>Foco na espessura das costas.</td></tr>
-                        <tr><td>Desenvolvimento ombro (máquina)</td><td>3 x 12</td><td>Mantenha a tensão nos ombros durante toda a série.</td></tr>
-                        <tr><td>Tríceps máquina (barra/corda)</td><td>3 x 12</td><td>Escolha sua variação preferida.</td></tr>
-                        <tr><td>Rosca bíceps (máquina)</td><td>3 x 12</td><td>Finalize com um bom "pump" no bíceps.</td></tr>
-                    </tbody>
-                </table>
-            </article>
-        </section>
-
-        <section id="nutricao" class="card">
-             <h2>🥗 Nutrição Estratégica para Recomposição Corporal</h2>
-            <div class="split-section">
-                <div class="info-block">
-                    <h4>Macronutrientes</h4>
-                    <p><strong>Proteína (REI):</strong> Meta de <strong>1.8 a 2.2g</strong> por kg de peso. Para 83kg, isso é: <strong>149g a 182g por dia</strong>.</p>
-                    <p><strong>Carboidratos (ENERGIA):</strong> Use fontes complexas (batata doce, arroz integral, aveia) como combustível para os treinos.</p>
-                    <p><strong>Gorduras (HORMÔNIOS):</strong> Consuma fontes boas (abacate, castanhas, azeite) para saúde hormonal e geral.</p>
-                </div>
-                <div class="info-block">
-                    <h4>Fontes e Hidratação</h4>
-                    <ul>
-                        <li>Frango, Peixes, Ovos, Carnes Magras</li>
-                        <li>Whey Protein (ótimo para o pós-treino)</li>
-                        <li>Iogurtes e Queijo Cottage</li>
-                        <li><strong>ÁGUA:</strong> Mínimo de <strong>3 litros por dia</strong>. Essencial.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="highlight-box">
-                <p><strong>RECOMENDAÇÃO DE OURO:</strong> Um(a) <strong>nutricionista</strong> é o melhor investimento para acelerar e otimizar seus resultados de forma segura. Pense nisso!</p>
+        <section class="welcome-section animate-slide-up">
+            <h1 class="welcome-title">Seu Treino Definitivo</h1>
+            <p class="welcome-subtitle">Hipertrofia & Definição com acompanhamento inteligente</p>
+            <div class="stats-overview" id="weeklyStats">
+                <div class="stat">💪 <span id="completedDays">0</span>/5 dias completos</div>
             </div>
         </section>
 
-        <section id="recuperacao" class="card">
-            <h2>🛌 Cardio & Recuperação: A Chave do Crescimento</h2>
-             <div class="split-section">
-                <div class="info-block">
-                    <h4>Cardio para Queima de Gordura</h4>
-                    <p><strong>Frequência:</strong> 3 a 5 vezes por semana.</p>
-                    <p><strong>Quando:</strong> Idealmente <strong>após</strong> o treino de musculação.</p>
-                    <p><strong>Duração:</strong> 20 a 30 minutos de intensidade moderada (caminhada inclinada, elíptico).</p>
-                </div>
-                <div class="info-block">
-                    <h4>Sono Reparador</h4>
-                    <p>É durante o sono que seu corpo libera hormônios anabólicos e repara as fibras musculares.</p>
-                    <p><strong>Meta:</strong> Durma de <strong>7 a 9 horas</strong> por noite, sem interrupções.</p>
-                    <p>Menos sono = Mais cortisol = Menos ganhos e mais gordura.</p>
-                </div>
-            </div>
-        </section>
-
-        <footer class="main-footer">
-            <p>A consistência é a ponte entre o seu objetivo e a realidade. Você tem o plano. Agora, execute.</p>
-        </footer>
+        <section class="days-grid" id="daysGrid">
+            </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">WG</div>
+                        WebCash Gym
+                    </div>
+                    <p class="footer-description">
+                        Transforme seu corpo e sua mente com o sistema de treinos mais completo e intuitivo.
+                        Hipertrofia, definição e resultados garantidos através de tecnologia e dedicação.
+                    </p>
+                    <div class="footer-stats">
+                        <div class="footer-stat">
+                            <span class="footer-stat-number" id="footerCompletedExercises">0</span>
+                            <span class="footer-stat-label">Exercícios Concluídos</span>
+                        </div>
+                        <div class="footer-stat">
+                            <span class="footer-stat-number" id="footerTrainingDays">0</span>
+                            <span class="footer-stat-label">Dias de Treino</span>
+                        </div>
+                        <div class="footer-stat">
+                            <span class="footer-stat-number">35+</span>
+                            <span class="footer-stat-label">Exercícios Únicos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Recursos</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">
+                            🎥 Vídeos dos Exercícios
+                        </a>
+                        <a href="#" class="footer-link">
+                            📊 Acompanhamento de Progresso
+                        </a>
+                        <a href="#" class="footer-link">
+                            🌙 Modo Escuro/Claro
+                        </a>
+                        <a href="#" class="footer-link">
+                            📱 Design Responsivo
+                        </a>
+                        <a href="#" class="footer-link">
+                            💪 Planos Personalizados
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Conecte-se</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">
+                            📧 Suporte Técnico
+                        </a>
+                        <a href="#" class="footer-link">
+                            💬 Comunidade
+                        </a>
+                        <a href="#" class="footer-link">
+                            📚 Blog de Treinos
+                        </a>
+                        <a href="#" class="footer-link">
+                            🏆 Desafios
+                        </a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" title="Instagram">📷</a>
+                        <a href="#" class="social-icon" title="YouTube">📺</a>
+                        <a href="#" class="social-icon" title="WhatsApp">💬</a>
+                        <a href="#" class="social-icon" title="Facebook">👤</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2025 WebCash Gym. Feito com <span class="heart">❤️</span> para transformar vidas.
+                </div>
+                <div class="footer-badge">
+                    ✨ Sistema 100% Funcional
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="exerciseModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <p class="modal-subtitle" id="modalSubtitle"></p>
+                <button class="close-btn" id="closeModal">×</button>
+            </div>
+            <div class="exercise-list" id="exerciseList">
+                </div>
+        </div>
+    </div>
+
+    <button class="fab" id="resetWeek" title="Reset Semana">🔄</button>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
